@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ad7eae; 
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 60px;
+    border: 10px solid #c07f7f;
+}
+
+.notes-container {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.buttons-container button {
+    margin-right: 10px;
+}
+
+.notes-list .note {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #93659f;
+}

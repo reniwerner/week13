@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="notes-container">
+        <textarea id="noteInput" placeholder="Enter your note..."></textarea>
+        <div class="buttons-container">
+            <button id="addNoteBtn">Add Note</button>
+            <button id="deleteNoteBtn">Delete Note</button>
+            <button id="restoreNoteBtn">Restore Note</button>
+            <button id="markImportantBtn">Mark Important</button>
+        </div>
+    </div>
+    <div id="notesList" class="notes-list"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
